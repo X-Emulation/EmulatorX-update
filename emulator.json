@@ -27,6 +27,33 @@
       "file_extensions": [".pkg", ".rap", ".edat", ".iso", ".bin"],
       "is_7z": true,
       "version": "0.0.34-17416"
+    },
+    {
+      "name": "mGBA",
+      "directory": "mgba",
+      "download_url": "https://github.com/mgba-emu/mgba/releases/download/0.10.2/mGBA-0.10.2-win64.7z",
+      "executable_path": "mGBA.exe",
+      "file_extensions": [".gba", ".gbc", ".gb"],
+      "is_7z": true,
+      "version": "0.10.2"
+    },
+    {
+      "name": "DuckStation",
+      "directory": "duckstation",
+      "download_url": "https://github.com/stenzek/duckstation/releases/download/latest/duckstation-windows-x64-release.zip",
+      "executable_path": "duckstation-qt-x64-ReleaseLTCG.exe",
+      "file_extensions": [".bin", ".img", ".cue", ".chd", ".ecm", ".mds", ".pbp"],
+      "is_7z": false,
+      "version": "latest"
+    },
+    {
+      "name": "Xenia",
+      "directory": "xenia",
+      "download_url": "https://github.com/xenia-project/release-builds-windows/releases/latest/download/xenia_master.zip",
+      "executable_path": "xenia.exe",
+      "file_extensions": [".xex", ".iso"],
+      "is_7z": false,
+      "version": "latest"
     }
   ]
 } 
