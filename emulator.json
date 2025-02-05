@@ -1,1 +1,32 @@
-
+{
+  "version": "1.0.0",
+  "emulators": [
+    {
+      "name": "Dolphin",
+      "directory": "dolphin",
+      "download_url": "https://dl.dolphin-emu.org/releases/2412/dolphin-2412-x64.7z",
+      "executable_path": "Dolphin-x64/Dolphin.exe",
+      "file_extensions": [".iso", ".gcm", ".wbfs", ".ciso", ".gcz", ".wia", ".rvz", ".dol", ".elf"],
+      "is_7z": true,
+      "version": "2412"
+    },
+    {
+      "name": "PCSX2",
+      "directory": "pcsx2",
+      "download_url": "https://github.com/PCSX2/pcsx2/releases/download/v2.0.0/pcsx2-v2.0.0-windows-x64-Qt.7z",
+      "executable_path": "pcsx2-qt.exe",
+      "file_extensions": [".iso", ".bin", ".img", ".mdf", ".nrg", ".pbp", ".chd"],
+      "is_7z": true,
+      "version": "2.0.0"
+    },
+    {
+      "name": "RPCS3",
+      "directory": "rpcs3",
+      "download_url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-394fc8eb79845caaf9528d7c1ac6fd78d653863c/rpcs3-v0.0.34-17416-394fc8eb_win64.7z",
+      "executable_path": "rpcs3.exe",
+      "file_extensions": [".pkg", ".rap", ".edat", ".iso", ".bin"],
+      "is_7z": true,
+      "version": "0.0.34-17416"
+    }
+  ]
+} 
